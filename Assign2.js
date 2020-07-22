@@ -1,30 +1,16 @@
-let importing = function(){
-    this.name = "boot";
+// Java program to print table
+// over given range
 
-} 
-importing.prototype.start = function(resolve){
-    this.resolve = resolve;
-    setTimeout(this.test.bind),1000);
-    console.log('start.......>');
+import js.import.*;
+
+class table
+{
+    // Driver code
+    public static void main(String arg[])
+    {
+        int n =8;
+        int range = 12;
+        for(int i =1;i <= range; ++i)
+        return(n + '* ' + i+'=' + n * i);
+    }
 }
-
-importing.prototype.test = function(){
-    this.resolve('Test');
-    console.log('Test ........>');
-
-}
-
-importing.prototype.end = function(resolve){
-    console.log('end .......>');
-    this.resolve('end');
-
-}
-
-let geko;
-let scan = new importing();
-Promise.resolve(geko)
-        .then(geko) => new Promise(scan.start.bind(scan)))
-        .then(geko) => new Promise(scan.start.bind(scan)))
-        .catch(geko) => {
-            console.log('Error message: ' , geko)
-        })

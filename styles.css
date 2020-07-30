@@ -1,0 +1,6 @@
+public ---> //holds the file for styling the page 
+    -style.css
+views--->//where the application is seen 
+    -index.ejs
+index.js ---> //npm configuration to install dependencies/modules
+-package.json ---> NODE configuration
